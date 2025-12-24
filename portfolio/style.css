@@ -102,3 +102,20 @@ body {
   margin: 1rem auto;
 }
 
+/* Skills */
+.skill-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background: #bd8de7;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  min-width: 120px;
+}
+
