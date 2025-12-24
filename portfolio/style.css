@@ -12,3 +12,93 @@ body {
   background: #f9f9f9;
 }
 
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background: #8d99ae;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #edf2f4;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #2b2d42;
+}
+
+.hero h1 span {
+  color: #004af6;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #1b007e;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  background: url('profile.jpeg') center/cover no-repeat;
+  margin: 2rem auto 0;
+  border-radius: 50%;
+  border: 4px solid #2b2d42;
+}
+
+/* About */
+.about,
+.skills,
+.projects,
+.contact {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
