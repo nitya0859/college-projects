@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Pinterest Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+  
+
+<div class="search-box">
+    <input type="text" placeholder="Search for easy dinner, ideas..." />
+  </div>
+
+
+  <div class="nav-right">
+ 
+    <div class="avatar">N</div>
+  </div>
+</div>
+<div class="sidebar">
+    <div class="logo">P</div>
+  <button class="side-icon">🏠</button>
+  <button class="side-icon">🔍</button>
+  <button class="side-icon">➕</button>
+</div>
+
+ <!-- Topic chips bar -->
+<div class="topics">
+  <button class="topic active">Positive quotes wallpaper</button>
+  <button class="topic">India cricket team</button>
+  <button class="topic">Harry Potter</button>
+  <button class="topic">Study motivation quotes</button>
+  <button class="topic">Girly art</button>
+  <button class="topic">Book nerd</button>
+  <button class="topic">Watercolor art</button>
+</div>
+
+  <!-- Pins -->
+  <div class="pin-container">
+    <!-- Pin 1 -->
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/250?random=1" alt="Pin 1">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">Beautiful mountain view</div>
+        <div class="pin-meta">
+          <span class="pin-site">example.com</span>
+          <span class="pin-user">User 1</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pin 2 -->
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/400?random=2" alt="Pin 2">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">Aesthetic workspace setup</div>
+        <div class="pin-meta">
+          <span class="pin-site">workspace.io</span>
+          <span class="pin-user">User 2</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pin 3 -->
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/320?random=3" alt="Pin 3">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">Minimal home design</div>
+        <div class="pin-meta">
+          <span class="pin-site">homely.in</span>
+          <span class="pin-user">User 3</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more pins by copy-pasting -->
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/500?random=4" alt="Pin 4">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">Delicious dessert ideas</div>
+        <div class="pin-meta">
+          <span class="pin-site">cooknow.com</span>
+          <span class="pin-user">User 4</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/280?random=5" alt="Pin 5">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">City at night</div>
+        <div class="pin-meta">
+          <span class="pin-site">travelblog.net</span>
+          <span class="pin-user">User 5</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pin">
+      <div class="pin-image-wrapper">
+        <img src="https://picsum.photos/300/360?random=6" alt="Pin 6">
+        <button class="save-btn">Save</button>
+      </div>
+      <div class="pin-info">
+        <div class="pin-title">Cozy reading corner</div>
+        <div class="pin-meta">
+          <span class="pin-site">bookspace.com</span>
+          <span class="pin-user">User 6</span>
+        </div>
+      </div>
+    </div>
+    <!-- Extra pins for more scroll -->
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/310?random=7" alt="Pin 7">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Bedroom lighting ideas</div>
+    <div class="pin-meta">
+      <span class="pin-site">homeideas.com</span>
+      <span class="pin-user">User 7</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/420?random=8" alt="Pin 8">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Street food in India</div>
+    <div class="pin-meta">
+      <span class="pin-site">foodie.in</span>
+      <span class="pin-user">User 8</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/260?random=9" alt="Pin 9">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Study desk organization</div>
+    <div class="pin-meta">
+      <span class="pin-site">studytime.com</span>
+      <span class="pin-user">User 9</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/460?random=10" alt="Pin 10">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Coding setup inspiration</div>
+    <div class="pin-meta">
+      <span class="pin-site">devsetups.net</span>
+      <span class="pin-user">User 10</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/340?random=11" alt="Pin 11">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Healthy breakfast ideas</div>
+    <div class="pin-meta">
+      <span class="pin-site">fitfood.com</span>
+      <span class="pin-user">User 11</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/380?random=12" alt="Pin 12">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Travel bucket list</div>
+    <div class="pin-meta">
+      <span class="pin-site">wanderer.org</span>
+      <span class="pin-user">User 12</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/290?random=13" alt="Pin 13">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Art wall collage</div>
+    <div class="pin-meta">
+      <span class="pin-site">artgram.com</span>
+      <span class="pin-user">User 13</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/450?random=14" alt="Pin 14">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Nature photography</div>
+    <div class="pin-meta">
+      <span class="pin-site">pixelsnap.io</span>
+      <span class="pin-user">User 14</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/330?random=15" alt="Pin 15">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Notebook doodles</div>
+    <div class="pin-meta">
+      <span class="pin-site">drawdaily.com</span>
+      <span class="pin-user">User 15</span>
+    </div>
+  </div>
+</div>
+<!-- extra scroll pins -->
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/310?random=16" alt="Pin 16">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Summer outfit ideas</div>
+    <div class="pin-meta">
+      <span class="pin-site">styleme.com</span>
+      <span class="pin-user">User 16</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/430?random=17" alt="Pin 17">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Cute nail designs</div>
+    <div class="pin-meta">
+      <span class="pin-site">nails.art</span>
+      <span class="pin-user">User 17</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/260?random=18" alt="Pin 18">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Simple lunch recipes</div>
+    <div class="pin-meta">
+      <span class="pin-site">eatquick.in</span>
+      <span class="pin-user">User 18</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/470?random=19" alt="Pin 19">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Gym workout plan</div>
+    <div class="pin-meta">
+      <span class="pin-site">fitnow.com</span>
+      <span class="pin-user">User 19</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/345?random=20" alt="Pin 20">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Desk plants</div>
+    <div class="pin-meta">
+      <span class="pin-site">plantify.net</span>
+      <span class="pin-user">User 20</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/390?random=21" alt="Pin 21">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Bullet journal spread</div>
+    <div class="pin-meta">
+      <span class="pin-site">journalclub.com</span>
+      <span class="pin-user">User 21</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/280?random=22" alt="Pin 22">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Anime wallpaper</div>
+    <div class="pin-meta">
+      <span class="pin-site">otaku.art</span>
+      <span class="pin-user">User 22</span>
+    </div>
+  </div>
+</div>
+
+<div class="pin">
+  <div class="pin-image-wrapper">
+    <img src="https://picsum.photos/300/440?random=23" alt="Pin 23">
+    <button class="save-btn">Save</button>
+  </div>
+  <div class="pin-info">
+    <div class="pin-title">Room makeover ideas</div>
+    <div class="pin-meta">
+      <span class="pin-site">roomflip.io</span>
+      <span class="pin-user">User 23</span>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+</body>
+</html>
